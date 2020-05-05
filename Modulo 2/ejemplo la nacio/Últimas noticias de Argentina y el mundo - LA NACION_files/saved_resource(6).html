@@ -1,0 +1,18 @@
+
+<!-- saved from url=(0028)https://www.lanacion.com.ar/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>
+    (function () {
+
+	window.top.googletag = window.top.googletag || {};
+	window.top.googletag.cmd = window.top.googletag.cmd || [];
+
+    window.top.googletag.cmd.push(function() {
+    
+        window.top.googletag.pubads().addEventListener('slotRenderEnded', function (event) {
+            var adSlot = window.top.document.querySelector('#' + event.slot.getSlotElementId());
+            adSlot.style.minHeight = '';
+            adSlot.style.minWidth = '';
+        });
+    })
+    })();
+</script></head><body marginwidth="0" marginheight="0"></body></html>
