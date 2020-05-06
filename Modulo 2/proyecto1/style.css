@@ -1,3 +1,14 @@
+#menu {
+    background-color: brown;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 #titulo {
     color: green;
 }
