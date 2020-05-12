@@ -62,4 +62,5 @@ https://docs.google.com/presentation/d/1E1d2r1uTzfNHWg0EN6DR0eS36U4GwVDdZuXScDhZ
   * Introduccion a MaterializeCSS
   
 3. Modulo 3: Bases de la programacion web moderna
-  * WIP
+  * Creacion de pagina web con materializeCSS
+  * DOM y como vincular nuestro HTML con logica JS
