@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Font Awesome -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
@@ -31,12 +32,33 @@
 
     <div class="header">
         <nav class="nav">
+            <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
             <div class="nav-wrapper">
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <ul id="nav-mobile" class="right hide-on-small-only">
                     <li><a class="white-text" href="#">Inicio</a></li>
                     <li><a class="white-text" href="#portfolio">Portfolio</a></li>
                 </ul>
             </div>
+
+            <ul id="slide-out" class="sidenav">
+                <li>
+                    <div class="user-view">
+                        <div class="background">
+                            <img src="images/office.jpg">
+                        </div>
+                        <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                        <a href="#name"><span class="white-text name">John Doe</span></a>
+                        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div>
+                </li>
+                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a href="#!">Second Link</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            </ul>
         </nav>
 
         <div class="inicio-container white-text">
@@ -48,7 +70,8 @@
                 <p>Fullstack JS Developer</p>
 
                 <div class="actions-wrapper">
-                    <button class="waves-effect waves-light btn light-blue darken-3">Portfolio</button>
+                    <button class="waves-effect waves-light btn light-blue darken-3">Contacto</button>
+                    <!-- <a class="waves-effect waves-light btn light-blue darken-3 modal-trigger" href="#modal1">Modal</a> -->
                 </div>
             </div>
         </div>
@@ -58,10 +81,12 @@
     <div class="container redes-container">
         <div class="redes">
             <div class="red-wrapper">
-                <a class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-github"
+                        aria-hidden="true"></i></a>
             </div>
             <div class="red-wrapper">
-                <a class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-linkedin" aria-hidden="true"></i></i></a>
+                <a class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-linkedin"
+                        aria-hidden="true"></i></i></a>
             </div>
         </div>
     </div>
@@ -105,7 +130,8 @@
                     <div class="col s6">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="https://s3.envato.com/files/129031564/preview/01_preview.__large_preview.png">
+                                <img class="activator"
+                                    src="https://s3.envato.com/files/129031564/preview/01_preview.__large_preview.png">
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Facebook<i
@@ -115,14 +141,16 @@
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">Facebook<i
                                         class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <p>Here is some more information about this product that is only revealed once clicked
+                                    on.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col s6">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="https://s3.envato.com/files/187333827/preview.__large_preview.png">
+                                <img class="activator"
+                                    src="https://s3.envato.com/files/187333827/preview.__large_preview.png">
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Nasa<i
@@ -132,14 +160,16 @@
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">Nasa<i
                                         class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <p>Here is some more information about this product that is only revealed once clicked
+                                    on.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col s6">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0L7L747.png?v=1.0">
+                                <img class="activator"
+                                    src="https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB0L7L747.png?v=1.0">
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">Tesla<i
@@ -149,14 +179,16 @@
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">Tesla<i
                                         class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <p>Here is some more information about this product that is only revealed once clicked
+                                    on.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col s6">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="https://cssauthor.com/wp-content/uploads/2018/01/Arrive-Business-Responsive-Website-Template.jpg">
+                                <img class="activator"
+                                    src="https://cssauthor.com/wp-content/uploads/2018/01/Arrive-Business-Responsive-Website-Template.jpg">
                             </div>
                             <div class="card-content">
                                 <span class="card-title activator grey-text text-darken-4">NatGeo<i
@@ -166,7 +198,8 @@
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">NatGeo<i
                                         class="material-icons right">close</i></span>
-                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                                <p>Here is some more information about this product that is only revealed once clicked
+                                    on.</p>
                             </div>
                         </div>
                     </div>
@@ -175,8 +208,34 @@
         </div>
     </div>
 
+    <div id="mi-modal">
+        <div class="mi-modal-wrapper">
+            <div class="mi-modal-title">
+                <h3>Contacto</h3>
+            </div>
+            <div class="mi-modal-content">
+                <p>telefono: 564654321654</p>
+                <p>email: asdfasd@awdfas.com</p>
+            </div>
+            <div class="mi-modal-actions">
+                <button class="btn">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Contacto</h4>
+            <p>Contactame gil</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cerrar</a>
+        </div>
+    </div> -->
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
